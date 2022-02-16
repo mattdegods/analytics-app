@@ -8,12 +8,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pluralsight/ps-design-system-button": "^24.0.8",
+    "@pluralsight/ps-design-system-core": "^10.0.3",
+    "@pluralsight/ps-design-system-normalize": "^7.0.3",
     "next": "12.0.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "recharts": "^2.1.9"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10"
+    "eslint-config-next": "12.0.10",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.21"
   }
 }
